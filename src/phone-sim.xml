@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+	<class name="com.khadri.hibernate.nativ.PhoneSim">
+		<id name="simSupport" type="int" >
+		<generator class="identity"/>
+		</id>
+		<property name="phoneName" type="string" /> 
+	</class>
+</hibernate-mapping>

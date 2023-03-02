@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+	<class name="com.khadri.hibernate.uuid.Adhaar">
+		<id name="adharNumber" type="uuid" column="adhaarnumber">
+		<generator class="uuid"/>
+		</id>
+		<property name="citizenName" type="string" /> 
+	</class>
+</hibernate-mapping>

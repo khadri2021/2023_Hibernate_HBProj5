@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+	<class name="com.khadri.hibernate.custom.Voter">
+		<id name="voterId" type="string" >
+		<generator class="com.khadri.hibernate.custom.CustomGenerator"/>
+		</id>
+		<property name="voterName" type="string" /> 
+	</class>
+</hibernate-mapping>
